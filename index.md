@@ -108,7 +108,7 @@ This is a pilot workshop, testing out a lesson that is still under development. 
 
 <p id="about-this-workshop">
   <strong>About this workshop:</strong>
-  This Software Carpentry course is an introductory course covering Programming in Python and using Conda for package and environment management. Learners are not expected to have any prior knowledge of these topics. Some basic Unix knowledge is assumed (how to make and change directories). You can find links to the course notes <li><a href="https://carpentries-incubator.github.io/shell-extras/"> here</a></li>.
+  This Software Carpentry course is an introductory course covering Programming in Python and using Conda for package and environment management. Learners are not expected to have any prior knowledge of these topics. Some basic Unix knowledge is assumed (how to make and change directories). You can find links to the course notes <a href="https://carpentries-incubator.github.io/shell-extras/"> here</a>.
 
 </p>
 
@@ -238,13 +238,6 @@ special instructions.
   We do not require participants to provide documentation of disabilities or disclose any unnecessary personal information. 
   However, we do want to help create an inclusive, accessible experience for all participants. 
   We encourage you to share any information that would be helpful to make your Carpentries experience accessible.
-</p>
-<p>
-  <a href="https://glosario.carpentries.org/">Glosario</a> is a multilingual glossary 
-  for computing and data science terms. The glossary helps 
-  learners attend workshops and use our lessons to make sense of computational and programming jargon written in English by offering it 
-  in their native language. Translating data science terms also provides a teaching tool for Carpentries Instructors to reduce barriers 
-  for their learners.
 </p>
 
 <hr/>
