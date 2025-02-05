@@ -111,6 +111,11 @@ This is a pilot workshop, testing out a lesson that is still under development. 
   This Software Carpentry course is an intermediate course covering the Unix shell, particularly focusing on features that are useful to researchers. Learners are assumed to have basic skills in the Unix shell as this course is designed to be a follow on from the Software Carpentry’s <a href="https://swcarpentry.github.io/shell-novice/">Introduction to the Unix Shell</a> course.
 </p>
 
+<p id="course-notes">
+  <strong>Course Notes:</strong>
+  The course notes can be found on <a href="{{site.incubator_lesson_site}}">the lesson homepage</a>.
+</p>
+
 <p id="who-can-attend">
     <strong>Who can attend?:</strong>
     This workshop is open to all staff and students from the National Oceanography Centre. Limited numbers are available for other organisations who collaborate with the National Oceanography Centre.
