@@ -35,28 +35,6 @@ And run 'make workshop-check' *before* committing to make sure that changes are 
 
 
 {% comment %}
-8< ============= For a workshop delete from here =============
-For a workshop please delete the following block until the next dashed-line
-{% endcomment %}
-
-
-<div class="alert alert-danger">
-This is the workshop template. Delete these lines and use it to
-<a href="https://carpentries.github.io/workshop-template/customization/index.html">customize</a>
-your own website. If you are running a self-organized workshop or have not put
-in a workshop request yet, please also fill in
-<a href="{{site.amy_site}}/forms/self-organised/">this workshop request form</a>
-to let us know about your workshop and our administrator may contact you if we
-need any extra information.
-If this is a pilot workshop for a new lesson,
-set the `pilot` field to `true` in `_config.yml`.
-For workshops teaching a lesson in The Carpentries Incubator,
-remember to uncomment the `incubator_lesson_site`, `incubator_pre_survey`, and `incubator_post_survey`
-fields in `_config.yml`
-</div>
-
-{% comment %}
-8< ============================= until here ==================
 {% endcomment %}
 
 {% comment %}
@@ -116,18 +94,6 @@ Edit the general explanatory paragraph below if you want to change
 the pitch.
 {% endcomment %}
 
-<p>
-<strong><a href="https://carpentries.org">The Carpentries</a></strong> project comprises the <a
-href="{{site.swc_site}}">Software Carpentry</a>, <a href="{{site.dc_site}}">Data Carpentry</a>, and
-<a href="{{site.lc_site}}">Library Carpentry</a> communities of Instructors, Trainers, Maintainers,
-helpers, and supporters who share a mission to teach foundational computational and data science
-skills to researchers.
-<p align="center">
-  <em>
-  <strong>Want to learn more and stay engaged with The Carpentries?</strong> Carpentries Clippings is The Carpentries' biweekly newsletter, where we share community news, community job postings, and more.
-Sign up to receive future editions and read our full archive: <a href="https://carpentries.org/newsletter/">https://carpentries.org/newsletter/</a>
-  </em>
-</p>
 {% if site.carpentry == "swc" %}
 {% include swc/intro.html %}
 {% elsif site.carpentry == "dc" %}
@@ -139,6 +105,12 @@ Sign up to receive future editions and read our full archive: <a href="https://c
 {% if site.pilot %}
 This is a pilot workshop, testing out a lesson that is still under development. The lesson authors would appreciate any feedback you can give them about the lesson content and suggestions for how it could be further improved.
 {% endif %}
+
+<p id="about-this-workshop">
+  <strong>About this workshop:</strong>
+  This Software Carpentry course is an introductory course covering Programming in Python and using Conda for package and environment management. Learners are not expected to have any prior knowledge of these topics. Some basic Unix knowledge is assumed (how to make and change directories). You can find links to the course notes <li><a href="https://carpentries-incubator.github.io/shell-extras/"> here</a></li>.
+
+</p>
 
 {% comment %}
 AUDIENCE
@@ -155,6 +127,30 @@ workshop is only open to people from a particular institution.
 {% endif %}
 
 {% comment %}
+
+{% comment %}
+WHO CAN ATTEND?
+
+If you would like to specify who can attend the workshop,
+you can use the section below.
+
+Move the 'endcomment' tag above the beginning of the following
+<p> tag to make this section visible.
+
+Edit the text to match who can attend the workshop. For instance:
+- This workshop is open to affiliates to ABC university.
+- This workshop is open to the public.
+- If you are interested in attending this workshop, contact me@example.com
+  for more information
+
+{% endcomment %}
+
+<p id="who-can-attend">
+    <strong>Who can attend?:</strong>
+    This workshop is open to all staff and students from the National Oceanography Centre. Limited numbers are available for other organisations who collaborate with the National Oceanography Centre.
+</p>
+
+
 LOCATION
 
 This block displays the address and links to maps showing directions
@@ -221,30 +217,6 @@ Modify the block below if there are any special requirements.
 </p>
 
 {% comment %}
-ACCESSIBILITY
-
-Modify the block below if there are any barriers to accessibility or
-special instructions.
-{% endcomment %}
-<p id="accessibility">
-  <strong>Accessibility:</strong>
-  We are committed to making this workshop
-  accessible to everybody. 
-</p>
-<p>We are dedicated to providing a positive and accessible learning environment for all. 
-  We do not require participants to provide documentation of disabilities or disclose any unnecessary personal information. 
-  However, we do want to help create an inclusive, accessible experience for all participants. 
-  We encourage you to share any information that would be helpful to make your Carpentries experience accessible.
-</p>
-<p>
-  <a href="https://glosario.carpentries.org/">Glosario</a> is a multilingual glossary 
-  for computing and data science terms. The glossary helps 
-  learners attend workshops and use our lessons to make sense of computational and programming jargon written in English by offering it 
-  in their native language. Translating data science terms also provides a teaching tool for Carpentries Instructors to reduce barriers 
-  for their learners.
-</p>
-
-{% comment %}
 CONTACT EMAIL ADDRESS
 
 Display the contact email address set in the configuration file.
@@ -275,26 +247,37 @@ Display the contact email address set in the configuration file.
   refer to <a href="https://carpentries.org/workshop_faq/#what-are-the-roles-of-everyone-participating-in-a-workshop">our Workshop FAQ</a>.
 </p>
 
-{% comment %}
-WHO CAN ATTEND?
-
-If you would like to specify who can attend the workshop,
-you can use the section below.
-
-Move the 'endcomment' tag above the beginning of the following
-<p> tag to make this section visible.
-
-Edit the text to match who can attend the workshop. For instance:
-- This workshop is open to affiliates to ABC university.
-- This workshop is open to the public.
-- If you are interested in attending this workshop, contact me@example.com
-  for more information
-
-<p id="who-can-attend">
-    <strong>Who can attend?:</strong>
-    This workshop is open to ....
+<p>
+<strong><a href="https://carpentries.org">The Carpentries:</a></strong> The Carpentries project comprises the <a
+href="{{site.swc_site}}">Software Carpentry</a>, <a href="{{site.dc_site}}">Data Carpentry</a>, and
+<a href="{{site.lc_site}}">Library Carpentry</a> communities of Instructors, Trainers, Maintainers,
+helpers, and supporters who share a mission to teach foundational computational and data science
+skills to researchers.
 </p>
+
+{% comment %}
+ACCESSIBILITY
+
+Modify the block below if there are any barriers to accessibility or
+special instructions.
 {% endcomment %}
+<p id="accessibility">
+  <strong>Accessibility:</strong>
+  We are committed to making this workshop
+  accessible to everybody. 
+</p>
+<p>We are dedicated to providing a positive and accessible learning environment for all. 
+  We do not require participants to provide documentation of disabilities or disclose any unnecessary personal information. 
+  However, we do want to help create an inclusive, accessible experience for all participants. 
+  We encourage you to share any information that would be helpful to make your Carpentries experience accessible.
+</p>
+<p>
+  <a href="https://glosario.carpentries.org/">Glosario</a> is a multilingual glossary 
+  for computing and data science terms. The glossary helps 
+  learners attend workshops and use our lessons to make sense of computational and programming jargon written in English by offering it 
+  in their native language. Translating data science terms also provides a teaching tool for Carpentries Instructors to reduce barriers 
+  for their learners.
+</p>
 
 <hr/>
 
