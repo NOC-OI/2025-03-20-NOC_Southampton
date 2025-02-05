@@ -108,8 +108,7 @@ This is a pilot workshop, testing out a lesson that is still under development. 
 
 <p id="about-this-workshop">
   <strong>About this workshop:</strong>
-  This Software Carpentry course is an introductory course covering Programming in Python and using Conda for package and environment management. Learners are not expected to have any prior knowledge of these topics. Some basic Unix knowledge is assumed (how to make and change directories). You can find links to the course notes <a href="https://carpentries-incubator.github.io/shell-extras/"> here</a>.
-
+  This Software Carpentry course is an intermediate course covering the Unix shell, particularly focusing on features that are useful to researchers. Learners are assumed to have basic skills in the Unix shell as this course is designed to be a follow on from the Software Carpentry’s <a href="https://swcarpentry.github.io/shell-novice/">Introduction to the Unix Shell</a> course.
 </p>
 
 <p id="who-can-attend">
