@@ -118,7 +118,7 @@ This is a pilot workshop, testing out a lesson that is still under development. 
 </p>
 
 
-
+{% comment %}
 LOCATION
 
 This block displays the address and links to maps showing directions
