@@ -108,7 +108,7 @@ This is a pilot workshop, testing out a lesson that is still under development. 
 
 <p id="about-this-workshop">
   <strong>About this workshop:</strong>
-  This Software Carpentry course is an intermediate course covering the Unix shell, particularly focusing on features that are useful to researchers. Learners are assumed to have basic skills in the Unix shell as this course is designed to be a follow on from the Software Carpentry’s <a href="https://swcarpentry.github.io/shell-novice/">Introduction to the Unix Shell</a> course.
+  This Software Carpentry course is an intermediate course covering the Unix shell, particularly focusing on features that are useful to researchers. Learners are assumed to have basic skills in the Unix shell as this course is designed to be a follow on from the Software Carpentry’s <a href="https://swcarpentry.github.io/shell-novice/">Introduction to the Unix Shell</a> course.  Please see the course notes for further information or get in touch with us. 
 </p>
 
 <p id="course-notes">
